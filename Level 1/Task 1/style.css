@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background:url('blur-g8f6a35364_1920.jpg');
+    
+}
+.left{
+    
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+
+}
+.mid{
+    display: block;
+    width: 36%;
+    margin:30px auto;
+    font-size: large;
+    
+}
+.right{
+    position: absolute;
+    top:20px;
+    right: 34px;
+    display:inline-block;
+    
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 35px 25px;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+.left img{
+    width:150px;
+    display: block; 
+    margin:auto;
+}
+.btn{
+    padding:5px 15px;
+    background-color:  rgb(219, 219, 63);
+    border-radius: 5px;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: aquamarine;
+}
+.container{
+    border: 0px solid white;
+    margin: 2px 2px auto;
+    display:block;
+    padding:5px;
+    width:20%;
+    border-radius: 28px;
+    font-size: 30px;
+
+}
+.form-group{ 
+    text-align: center;
+    display: block;
+    width: 240px;
+    padding: 4px;
+    border: 2px solid black;
+    margin:3px auto;
+    font-size: 25px;
+}
+.container button{
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+}
